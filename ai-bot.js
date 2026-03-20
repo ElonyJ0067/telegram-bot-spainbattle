@@ -38,7 +38,7 @@ Downloads Available:
 
 Contact Information:
 - Website: https://spinbattles.com
-- Email: info@spinbattles.com
+- Email: hr@spinbattles.com
 - Phone: +1-773-677-8273
 - Telegram: @spinbattles320
 
@@ -95,7 +95,7 @@ async function callGroqAI(userMessage, conversationHistory = []) {
         } else if (userMessage.toLowerCase().includes('job') || userMessage.toLowerCase().includes('career') || userMessage.toLowerCase().includes('hiring')) {
             return "We're hiring! SpinBattles is looking for Game Developers, Frontend/Backend Developers, 3D Designers, and Chief-level roles. Remote work with monthly pay. Contact @spinbattles320 for details!";
         } else if (userMessage.toLowerCase().includes('contact') || userMessage.toLowerCase().includes('email') || userMessage.toLowerCase().includes('phone')) {
-            return "Contact SpinBattles: Email: info@spinbattles.com, Phone: +1-773-677-8273, Telegram: @spinbattles320, Website: https://spinbattles.com";
+            return "Contact SpinBattles: Email: hr@spinbattles.com, Phone: +1-773-677-8273, Telegram: @spinbattles320, Website: https://spinbattles.com";
         } else {
             return "I'm here to help with questions about SpinBattles! We develop casino games, slot games, and multiplayer platforms. What would you like to know?";
         }
