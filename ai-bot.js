@@ -4,6 +4,7 @@ require('dotenv').config();
 
 // Bot configuration
 const token = process.env.TELEGRAM_BOT_TOKEN;
+if (!token) { console.error('❌ FATAL: Telegram Bot Token not provided!'); process.exit(1); }
 const bot = new TelegramBot(token, { polling: true });
 
 // Groq API configuration
