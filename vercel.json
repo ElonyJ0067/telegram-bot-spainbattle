@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "webhook.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "webhook.js"
+    }
+  ],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": "@telegram_bot_token",
+    "ADMIN_TELEGRAM_ID": "@admin_telegram_id",
+    "WEBSITE_URL": "@website_url",
+    "WEBHOOK_URL": "@webhook_url"
+  }
+}
